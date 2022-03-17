@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Colour Picker</title>
+  </head>
+
+  <body>
+    
+
+    <form>
+      <!-- Side Navbar -->
+      <section>
+        <div class="navCont">
+
+          <h1>BG Gradient Generator</h1>
+
+          <!-- Colour Picker -->
+      <section id ="colorContainer">
+        <input
+          class="color1"
+          type="color"
+          name="color"
+          id="color1"
+          value="#ADD8E6"
+        />
+        <input
+          class="color2"
+          type="color"
+          name="color"
+          id="color2"
+          value="#ffcccb"
+        />
+      </section>
+
+
+      <!-- Direction buttons -->
+        <section id ="buttonContainer">
+        <div>
+            <button type="button" name="direction" value="to top left" id="topLeft" class="direction1">
+                <label><i class="arrow topLeft"></i></label>
+            </button>
+
+            <button type="button" name="direction" value="to top" id="top" class="direction2">
+                <label><i class="arrow top"></i></label>
+            </button>
+
+            <button type="button" name="direction" value="to top right" id="topRight" class="direction3">
+              <label><i class="arrow topRight"></i></label>
+            </button>
+
+        </div>
+
+        <div>
+          <button type="button" name="direction" value="to left" id="left" class="direction4">
+            <label>
+              <i class="arrow left"></i>
+            </label>
+          </button>
+          
+
+          <button type="button" name="direction" value="random" id="random" class="direction9"></button>
+
+
+          <button type="button" name="direction" value="to right" id="right" class="direction5">
+            <label>
+              <i class="arrow right"></i>
+            </label>
+          </button>
+        </div>
+
+        <div>
+            <button type="button" name="direction" value="to bottom left" id="bottomLeft" class="direction6">
+              <label><i class="arrow bottomLeft"></i></label>
+            </button>
+
+            <button type="button" name="direction" value="to bottom" id="bottom" class="direction7">
+              <label><i class="arrow down"></i></label>
+            </button>
+
+            <button type="button" name="direction" value="to bottom right" id="bottomRight" class="direction8">
+              <label><i class="arrow bottomRight"></i></label>
+            </button>
+        </div>
+
+        </section>
+          
+        </div>
+      </section>
+
+      
+
+ 
+        
+      </div>
+    </form>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
